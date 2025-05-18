@@ -2,6 +2,12 @@ import unittest
 
 from blockdeliminer import *
 class TestBlockDelimiter(unittest.TestCase):
+    def test_extract_title(self):
+         self.assertEqual(extract_title("# Hello"), "Hello")
+
+
+
+
     def test_markdown_to_blocks(self):
         md = """
 This is **bolded** paragraph

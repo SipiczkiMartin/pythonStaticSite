@@ -1,5 +1,5 @@
 from enum import Enum
-from leafnode import LeafNode
+from htmlnode import LeafNode
 from inlinedeliminer import *
 
 class TextType(Enum):
